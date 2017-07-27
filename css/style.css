@@ -1,0 +1,169 @@
+body {
+    background: url(../images/back6.jpg) no-repeat fixed;
+    background-size: 100% 100%;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+section, .header {
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 300%;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    box-shadow: inset -4px -4px rgba(0, 0, 0, 0.5);
+    border-color: black;
+    margin-bottom: 20px;
+}
+
+article {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    box-shadow: inset -4px -4px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    color: white;
+    border-color: black;
+}
+
+.signup {
+    display: inline-block;
+    padding: 2em 4em 0em 6em;
+}
+
+.login {
+    display: inline-block;
+    padding: 2em 5em 0em 3em;
+}
+
+article input, select, option {
+    font: inherit;
+}
+
+article input[type="text"], input[type="password"] {
+    width: 250px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+article input[type="submit"], input[type="button"] {
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color: skyblue;
+    color: black;
+}
+
+article input[type="file"] {
+    border: 0;
+    padding: 0;
+}
+
+article select {
+    width: 250px;
+    height: 35px;
+}
+
+nav {
+    padding-top: 0px;
+    padding-bottom: 20px
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    opacity: .8;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+nav li.dropdown {
+    display: inline-block;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+nav .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+nav .dropdown-content a:hover {
+    background-color: red;
+}
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+article td {
+    vertical-align: middle;
+}
+
+footer {
+    line-height: normal;
+    font-size: .70em;
+    text-align: center;
+    color: #cccc99;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    border-bottom: 3px solid #000000;
+    border-top: 3px solid #000000;
+}
+
+#scheduleTable {
+    margin-bottom: 1em;
+}
+
+#scheduleTable td {
+    border-bottom: none;
+    vertical-align: text-top;
+    padding-top: .1em;
+    padding-bottom: .1em;
+}
