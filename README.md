@@ -36,6 +36,6 @@ php -S localhost:8000
 5. On your web browser, visit http://localhost:8000/ and you should see ScheduleHub.
 
 ## See it in action!
-<a href="https://vimeo.com/227415493"><img src="https://raw.githubusercontent.com/sudiamanj/ScheduleHub/master/images/demo.png" alt="Video Demo" width="800" height="480"></a>
+<a href="https://vimeo.com/227415493"><img src="https://raw.githubusercontent.com/sudiamanj/ScheduleHub/master/images/demo.png" alt="Video Demo"></a>
 
 Bundled with this project is [LeopardWeb Connector](https://github.com/sudiamanj/leopardweb-connector), a utility that imports schedules from our campus portal into Google Calendar. Make sure to check that out as well.
