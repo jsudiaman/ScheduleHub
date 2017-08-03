@@ -4,15 +4,15 @@ A website for students and faculty to share schedules and arrange meetings.
 ## Setup
 Follow these steps if you wish to run ScheduleHub on your local machine.
 
-Requirements:
+### Requirements
 - [PHP](http://php.net/)
 - [MySQL](https://www.mysql.com/)
 - An SMTP server
 - Access to the [Google Calendar API](https://developers.google.com/google-apps/calendar/)
 
-Steps:
+### Steps
 1. Ensure that PHP is configured to allow file uploads. In your `php.ini` file, set `file_uploads = On`.
-2. Create a new MySQL database. Initialize it using `DDL.sql`.
+2. Create a new MySQL database. Initialize it using [DDL.sql](https://github.com/sudiamanj/ScheduleHub/blob/master/sql/DDL.sql).
 3. Set the following environment variables:
 
 | Variable                  | Value                                                             |
@@ -28,7 +28,7 @@ Steps:
 | `TIMEZONE`                | [Timezone](http://php.net/manual/en/timezones.php) of your server |
 | `GOOGLE_APPLICATION_NAME` | Google API project name                                           |
 | `GOOGLE_CALENDAR_API_KEY` | Google API key                                                    |
-4. Start the server the following commands:
+4. Start the server using the following commands:
 ```
 php composer.phar install
 php -S localhost:8000
