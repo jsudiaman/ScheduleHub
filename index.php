@@ -5,7 +5,7 @@
     <title>ScheduleHub</title>
     <link rel="stylesheet" type="text/css" href="css/tacit.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         function onLoad() {
             // Ensure match between password and password verification

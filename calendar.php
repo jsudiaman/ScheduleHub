@@ -27,9 +27,9 @@ if (!empty($_GET['name'])) {
 
     <?php include "favicon.php" ?>
 
-    <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
-    <script src="js/jquery.timepicker.js" type="text/javascript"></script>
-    <script src="js/kalendae.js" type="text/javascript"></script>
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.timepicker.min.js" type="text/javascript"></script>
+    <script src="js/kalendae.standalone.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         /** Send invitation according to #scheduleForm. */
         function sendInvitation() {
