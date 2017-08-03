@@ -30,9 +30,9 @@ $mail->SMTPDebug = 0;
 $mail->Debugoutput = 'html';
 
 // Set the hostname of the mail server
-$mail->Host = 'smtp.gmail.com';
+$mail->Host = SMTP_HOST;
 // use
-// $mail->Host = gethostbyname('smtp.gmail.com');
+// $mail->Host = gethostbyname(SMTP_HOST);
 // if your network does not support SMTP over IPv6
 
 // Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
