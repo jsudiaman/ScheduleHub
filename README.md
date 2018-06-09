@@ -12,7 +12,7 @@ Follow these steps if you wish to run ScheduleHub on your local machine.
 
 ### Steps
 1. Ensure that PHP is configured to allow file uploads. In your `php.ini` file, set `file_uploads = On`.
-2. Create a new MySQL database. Initialize it using [DDL.sql](https://github.com/sudiamanj/ScheduleHub/blob/master/sql/DDL.sql).
+2. Create a new MySQL database. Initialize it using [DDL.sql](/sql/DDL.sql).
 3. Set the following environment variables:
 
 | Variable                  | Value                                                             |
@@ -36,6 +36,4 @@ php -S localhost:8000
 5. On your web browser, visit http://localhost:8000/ and you should see ScheduleHub.
 
 ## See it in action!
-<a href="https://vimeo.com/227415493"><img src="https://raw.githubusercontent.com/sudiamanj/ScheduleHub/master/images/demo.png" alt="Video Demo"></a>
-
-Bundled with this project is [LeopardWeb Connector](https://github.com/sudiamanj/leopardweb-connector), a utility that imports schedules from our campus portal into Google Calendar. Make sure to check that out as well.
+<a href="https://vimeo.com/227415493"><img src="/images/demo.png" alt="Video Demo"></a>
