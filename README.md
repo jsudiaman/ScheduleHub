@@ -6,7 +6,6 @@ Follow these steps if you wish to run ScheduleHub on your local machine.
 
 ### Requirements
 - [PHP](http://php.net/)
-- [Composer](https://getcomposer.org/)
 - [MySQL](https://www.mysql.com/)
 - An SMTP server
 - Access to the [Google Calendar API](https://developers.google.com/google-apps/calendar/)
@@ -33,6 +32,7 @@ Follow these steps if you wish to run ScheduleHub on your local machine.
 - Start the server using the following commands:
 
 ```Shell
+./getcomposer.sh
 php composer.phar install
 php -S localhost:8000
 ```
